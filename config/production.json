@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://ankit:ankit@cfa-forms.jbmvf.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}

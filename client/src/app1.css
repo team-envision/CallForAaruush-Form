@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #2c324e, #12141f);
+  background-repeat: no-repeat;
+}
+.slide{
+  float:right;
+}
+img{
+  width: 60px;
+  height:60px;
+  float:left;
+}
+.container {
+  height: 100%;
+  color: #fff;
+  padding: 100px 50px 50px 50px;
+  max-width: 100%;
+  display: flex;
+  font-family: 'Raleway';
+  font-size: 30px;
+}
+.subcontainer{/*for domains*/
+  height: 100%;
+  color: #fff;
+  padding: 70px;
+  
+  max-width: 100%;
+  display: flex;
+  font-family: 'Raleway';
+  font-size: 30px;
+}
+.heading h6 {
+  font-size: 13px;
+  font-family: 'Open Sans';
+  color: #cdcdcd;
+  padding-top: 10px;
+}
+ h6 {
+  font-size: 13px;
+  font-family: 'Open Sans';
+  color: #cdcdcd;
+  padding-top: 10px;
+  flex:column;
+}
+h4 {
+  font-size: 1em;
+  font-weight: bolder;
+  font-family: 'Open Sans';
+  color: #cdcdcd;
+  
+}
+#para1{
+margin-bottom:0px;
+}
+#para2{
+margin-top:0px;
+}
+.container p {
+  font-family: 'open sans';
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 10px;
+  color: #cdcdcd;
+}
+.column1{
+  float:left; 
+  width:50%;
+}
+.column2{
+  width:50%;
+  float:right;
+  padding-right:20px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.about {
+  flex-direction: column;
+  flex: 1.5;
+}
+
+.heading .button-apply {
+  transition-duration: 0.4s;
+  margin-top: 25px;
+  width: 200px;
+  background: #414a74; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-apply:hover {
+  background-color: #cdcdcd; /* Green */
+  color: black;
+
+}
+.heading .Dom{
+  background-color:#f6255A;
+  color:white;
+  margin-top: 25px;
+  width: 100px;
+  border:none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 3px 3px 0 #f6255A, 0 6px 10px 0 #f6255A;
+}
+.heading .com{
+  background-color: #00CCFF;
+  color:white;
+  margin-top: 25px;
+  width: 100px;
+  border:none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 3px 3px 0 #00CCFF, 0 6px 10px 0  #00CCFF;
+}
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #080d19;
+  color: white;
+}
+
+.fab {
+  padding: 12px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+form input {
+  color: white;
+  font-family: 'Raleway';
+
+  width: 250px;
+  margin: 10px;
+  padding: 14px;
+  background-color: #282b41;
+  border: #1b1e2d;
+}
+
+select {
+  color: #9e9e9e;
+  font-family: 'Raleway';
+
+  width: 200px;
+  margin: 10px;
+  padding: 14px;
+  background-color: #282b41;
+  border: #1b1e2d;
+}
+
+form ::placeholder {
+  color: grey;
+}
+
+.submit {
+  background-color: #4169e1;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: 'Raleway';
+  width: 180px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 500px;
+  font-family: 'Raleway';
+}
+
+.info-left {
+  color: white;
+}
+
+.info-right {
+  color: white;
+}
+
+.contact h2 {
+  padding: 1px;
+  margin: 0px;
+}
+.contact p {
+  padding: 3px;
+  margin-top: 0px;
+}

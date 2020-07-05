@@ -1,19 +1,24 @@
 import React from 'react';
-import logo from '../logo_white.png';
+import { Link } from 'react-router';
+import Form from '../components/Form';
 
 export default function Header() {
   return (
-    <div>
-      <img src={logo} alt='' />
+    <div className='head'>
       <div className='container'>
         <div className='heading'>
           <h3>CALL FOR</h3>
           <h1>AARUUSH</h1>
           <h6>1st july - 15th july</h6>
-          <button className='button-apply'>Apply Now</button>
+          <button
+            className='button-apply'
+            onClick={window.scrollTo(0, document.body.scrollHeight)}
+          >
+            Apply Now
+          </button>
         </div>
         <div className='about'>
-          <h6>About AARUUSH</h6>
+          <h5>About AARUUSH</h5>
           <p>
             Aaruush is the student-run, official Techno-Management Fest of SRM
             Institute of Science and Technology. Team Aaruush is an

@@ -17,6 +17,18 @@ const Form = () => {
     setAlready(e.target.value);
   };
 
+  function validateEmail(value) {
+    let error;
+
+    if (!value) {
+      error = 'Required';
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)) {
+      error = 'Invalid email address';
+    }
+
+    return error;
+  }
+
   const postForm = async (name, email, alreadyInAaruush) => {
     try {
       setLoading(true);
@@ -27,6 +39,7 @@ const Form = () => {
       });
       setLoading(false);
     } catch (err) {
+      setLoading(false);
       console.error(err);
     }
   };
@@ -66,7 +79,7 @@ const Form = () => {
           value={alreadyInAaruush}
           onChange={onChangeAlready}
         >
-          <option value='' selected>
+          <option value='no' selected>
             Already in Aaruush?
           </option>
 

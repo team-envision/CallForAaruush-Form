@@ -1,6 +1,8 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const path = require('path');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
 
 // connect DB
@@ -8,6 +10,9 @@ connectDB();
 
 // Define port
 const PORT = process.env.PORT || 5000;
+
+app.use(cors());
+app.use(bodyParser.json());
 
 // Define Routes
 app.use('/api/addForm', require('./routes/forms'));

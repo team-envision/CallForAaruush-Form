@@ -14,8 +14,9 @@ body {
   float: right;
 }
 img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
   float: left;
 }
 .container {
@@ -69,7 +70,7 @@ h4 {
 
 .text {
   padding-top: 10px;
-  padding-left: 60px;
+  padding-left: 70px;
   text-align: left;
 }
 
@@ -257,4 +258,34 @@ form ::placeholder {
 .contact p {
   padding: 3px;
   margin-top: 0px;
+}
+
+.readmore {
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: 'Open Sans';
+}
+
+.readmoretext {
+  color: #868686;
+  cursor: pointer;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.teams:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.teams {
+  padding: 10px 100px;
+  color: white;
 }

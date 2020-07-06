@@ -25,6 +25,9 @@ import workshops from '../workshops.png';
 import challenges from '../challenges.png';
 import creatives from '../creatives.png';
 import deco from '../deco.png';
+import envision from '../envision.png';
+import digitalmanagement from '../digitalmanagement.png';
+import outreach from '../outreach.png';
 import '../app1.css';
 import ReadMoreReact from 'read-more-react';
 
@@ -544,7 +547,7 @@ export default function Domains() {
       <div className='teams'>
         <div className='col'>
           <div class='card'>
-            <img src={viman}></img>
+            <img src={envision}></img>
             <div class='text'>
               <h4 id='para1'>Team Envision</h4>
               <h6 id='para2'>
@@ -564,7 +567,7 @@ export default function Domains() {
         </div>
         <div className='col'>
           <div class='card'>
-            <img src={viman}></img>
+            <img src={outreach}></img>
             <div class='text'>
               <h4 id='para1'>TEAM OUTREACH</h4>
               <h6 id='para2'>
@@ -583,7 +586,7 @@ export default function Domains() {
         </div>
         <div className='col'>
           <div class='card'>
-            <img src={viman}></img>
+            <img src={digitalmanagement}></img>
             <div class='text'>
               <h4 id='para1'>Digital Management </h4>
               <h6 id='para2'>

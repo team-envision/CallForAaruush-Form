@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Form from './components/Form';
 import Domains from './components/domains';
-import logo from './logo_white.png';
+import logo from './aaruush.png';
 
 function App() {
   return (

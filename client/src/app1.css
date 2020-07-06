@@ -37,7 +37,7 @@ img {
   max-width: 100%;
   display: flex;
   font-family: 'Raleway';
-  font-size: 30px;
+  font-size: 25px;
 }
 .heading h6 {
   font-size: 13px;
@@ -46,7 +46,7 @@ img {
   padding-top: 10px;
 }
 h6 {
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Open Sans';
   color: #cdcdcd;
   padding-top: 10px;
@@ -286,6 +286,11 @@ form ::placeholder {
 }
 
 .teams {
-  padding: 10px 100px;
+  padding: 20px 40px;
   color: white;
+}
+
+.teams h4 {
+  color: #40b89c;
+  font-size: 20px;
 }

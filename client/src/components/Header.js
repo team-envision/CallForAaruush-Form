@@ -10,12 +10,7 @@ export default function Header() {
           <h3>CALL FOR</h3>
           <h1>AARUUSH</h1>
           <h6>1st july - 15th july</h6>
-          <button
-            className='button-apply'
-            onClick={window.scrollTo(0, document.body.scrollHeight)}
-          >
-            Apply Now
-          </button>
+          <button className='button-apply'>Apply Now</button>
         </div>
         <div className='about'>
           <h5>About AARUUSH</h5>

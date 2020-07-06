@@ -33,7 +33,7 @@ body {
 
 .head {
   padding-top: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .heading h6 {
@@ -61,7 +61,7 @@ body {
 .about {
   flex-direction: column;
   flex: 1;
-  padding: 10px;
+  padding-left: 60px;
 }
 
 .heading .button-apply {

@@ -63,11 +63,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>Electrizite</h4>
               <h6 id='para2'>
-                &nbsp;&nbsp;Electrical and Electronics engineering, Integrated
-                Circuitry, IoT,
-                <br></br>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;embedded and hybrid systems{' '}
+                Electrical and Electronics engineering, Integrated Circuitry,
+                IoT, embedded and hybrid systems
               </h6>
             </div>
           </div>
@@ -77,11 +74,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>fundaz</h4>
               <h6 id='para2'>
-                &nbsp;&nbsp;Logical Conundrums and Fundamentals of basic
-                mathematics
-                <br></br>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;and science.{' '}
+                Logical Conundrums and Fundamentals of basic mathematics and
+                science.
               </h6>
             </div>
           </div>
@@ -91,11 +85,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>Konstruktion</h4>
               <h6 id='para2'>
-                &nbsp;Civil Engineering, Infrastructure Design, Fabrication &
-                Testing
-                <br></br> &nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;Design Elements
+                Civil Engineering, Infrastructure Design, Fabrication & Testing
+                Design Elements
               </h6>
             </div>
           </div>
@@ -105,10 +96,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>Machination</h4>
               <h6 id='para2'>
-                &nbsp;Mechanical and Automobile Engineering, Designing and
-                <br></br>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;Implementation of Technological Components
+                Mechanical and Automobile Engineering, Designing and
+                Implementation of Technological Components
               </h6>
             </div>
           </div>
@@ -118,10 +107,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>maggifcie</h4>
               <h6 id='para2'>
-                &nbsp;Management skills, planning, entrepreneurship & business
-                <br></br>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;strategy
+                Management skills, planning, entrepreneurship & business
+                strategy
               </h6>
             </div>
           </div>
@@ -162,10 +149,8 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>Vimanaz</h4>
               <h6 id='para2'>
-                &nbsp;Aviation Technologies, Aerodynamic Analysis, Unmanned
-                <br></br>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;Vehicle Design and Fabrication.
+                Aviation Technologies, Aerodynamic Analysis, Unmanned Vehicle
+                Design and Fabrication.
               </h6>
             </div>
           </div>
@@ -238,9 +223,7 @@ export default function Domains() {
               <h4 id='para1'>ORM</h4>
               <h6 id='para2'>
                 Resource Allocation, Permissions, crowd control, Event
-                Management,crisis
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;management.{' '}
+                Management,crisis management.
               </h6>
             </div>
           </div>
@@ -262,7 +245,7 @@ export default function Domains() {
               <h4 id='para1'>Highlights</h4>
               <h6 id='para2'>
                 Arranging for Dignitaries, Guests, Expos and Aaruush Nights,
-                Transportation and Hospitality.{' '}
+                Transportation and Hospitality.
               </h6>
             </div>
           </div>
@@ -326,7 +309,7 @@ export default function Domains() {
             <div class='text'>
               <h4 id='para1'>Deco and Arts</h4>
               <h6 id='para2'>
-                Campus Decoration, Artwork and Structure making.{' '}
+                Campus Decoration, Artwork and Structure making.
               </h6>
             </div>
           </div>

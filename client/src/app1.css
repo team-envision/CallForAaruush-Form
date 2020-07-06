@@ -140,6 +140,7 @@ h4 {
   padding: 5px;
   font-size: 16px;
   font-weight: 600;
+
   /* box-shadow: 0 3px 3px 0 #f6255a, 0 6px 10px 0 #f6255a; */
 }
 .heading .com {
@@ -264,6 +265,7 @@ form ::placeholder {
   padding-top: 5px;
   font-size: 12px;
   font-weight: 100;
+  text-align: justify;
   font-family: 'Open Sans';
 }
 

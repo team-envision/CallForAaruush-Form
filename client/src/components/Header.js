@@ -3,6 +3,14 @@ import { Link } from 'react-router';
 import Form from '../components/Form';
 
 export default function Header() {
+  const handleScrollToElement = (event) => {
+    window.scroll({
+      top: 10000,
+      left: 100,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <div className='head'>
       <div className='container'>
@@ -10,7 +18,9 @@ export default function Header() {
           <h3>CALL FOR</h3>
           <h1>AARUUSH</h1>
           <h6>1st july - 15th july</h6>
-          <button className='button-apply'>Apply Now</button>
+          <button className='button-apply' onClick={handleScrollToElement}>
+            Apply Now
+          </button>
         </div>
         <div className='about'>
           <h5>About AARUUSH</h5>

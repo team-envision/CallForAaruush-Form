@@ -489,7 +489,7 @@ export default function Domains() {
             <div class='card'>
               <img src={challenges}></img>
               <div class='text'>
-                <h4 id='para1'>Chalenges & Championships</h4>
+                <h4 id='para1'>Challenges & Championships</h4>
                 <h6 id='para2'>
                   Organizes extravaganza of interdisciplinary competitions based
                   on Technology and Innovation

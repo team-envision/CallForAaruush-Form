@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
-import Form from '../components/Form';
 
 export default function Header() {
   const handleScrollToElement = (event) => {

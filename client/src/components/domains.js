@@ -58,9 +58,11 @@ export default function Domains() {
 
                 <p className='readmore'>
                   <ReadMoreReact
-                    min={0}
+                    min={10}
                     text='Architecture encompasses elements related to planning, design, usage of light, space, layouts, computer modeling software and programming that help digitalize architecture’s core processes, thereby providing a comprehensive experience of modern architecture. What you need is planning, innovation, efficiency and enhancing the designs and magic ensues. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -74,9 +76,11 @@ export default function Domains() {
 
                 <p className='readmore'>
                   <ReadMoreReact
-                    min={0}
+                    min={10}
                     text='Bluebook is a consortium of events which are related to bioengineering, life sciences and chemistry. Each event makes sure that the participants not only enjoys but also get to learns new concepts that they were previously unaware of, by quizzes and FAQ rounds. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -94,7 +98,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Digital Design is the domain of problem-solving through the use of images, words or graphic forms. It is a subset of visual communication and graphic design. It includes the work of various fields such as digital imaging, videography, modern art, music, costume design, visual effects, animation, software editing of ads and addition of computing techniques perk up the charm. It is a uniquely crafted domain for all the sound and visual artists at heart. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -113,7 +119,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='This domain makes provisions for the participants of being bombarded by a stream of resistors, diodes, capacitors, and inductors. The knowledge of topics like artificial intelligence, microprocessors, integrated circuitry and embedded systems etc. is the order of the course. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -132,7 +140,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Fundaz deals with the basic concepts of science spiked with entertainment. If puzzles, quizzes, logical reasoning and crosswords are your interests, this domain is where you should be!'
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -151,7 +161,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Konstruktion puts together events which are focused on civil engineering and infrastructure, which highlight the part of the spectrum consisting of designing, fabricating and practical testing of models using the CAD software’s is the mandate. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -170,7 +182,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Machination is a domain which covers the various technical aspects related to the school of mechanical and automobile engineering. This domain involves various subjects such as designing of machines, drawing blueprints, adding and improving technical aspects of various automobiles and bringing in solutions for problems by applying various techniques revolving around contraption functions. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -189,7 +203,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Magefficie encompasses various events which test the business and management skills of a student. Crisis management, marketing, finance, share markets, entrepreneurs, startups, corporate strategies and business planning form the basics of this domain. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -208,7 +224,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='This domain provides a nice opportunity to compete in events that center around the World Wide Web. This domain is all about participating online events includes gaming, web designing, poster &logo making, photography, app developing and this is the platform where one could sit comfortably back at home and enjoy the essence of AARUUSH! '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -226,7 +244,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='This domain is a little different, a little unique, maybe pompous but greatly pertinacious. It is all about presenting yourself in whatever way you want to. Not limited to J.A.M.s, debates or verbal expressions, but any other way that you can fathom. Giving you the opportunity to express yourself and what you believe in. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -245,7 +265,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Robogyan gives you the opportunity to stand head to head with the advancing technology. All of us are fascinated by robots because they are the machines that can mimic life, so be innovative and formulate your ideas to co-ordinate the events. Manual, semi-autonomous and autonomous robotic events are all accepted. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -264,7 +286,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='This domain showcases everything that the word “flying” or “aviation” associates itself to. It is concerned with development, design and research. It also covers the aerodynamic characteristics. It is a canvas for those who always want to soar into grander horizons. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -282,7 +306,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='X-Zone mainly deals with events based on off-beat interests like brain storming, treasure –hunts, gaming and so on. These events are fun-based and offer respite from the technical mumbo-jumbo. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -301,7 +327,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Yuddhame concentrates on events which deal with testing software and hardware skills, web designing, operating systems, mobile apps, android, distributed computing, and networking and communication techniques. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -329,7 +357,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text=' Public Relations in Aaruush are a distinctive management body which helps establish and maintain lines of communication between the organization and its public. It includes content writing, documenting, achieving certified patronages and accreditations, anchoring and much more. It is divided further into four sub-divisions: Letters, Documentation, NGOs and Media. Media, builds an individuals interpersonal and public speaking skills, addressing a crowd of thousands, to giving our voice off-screen for podcasts and radio. It enables one to explore their creative side and make it hyper-useful in writing scripts, screenplays and sketches for Aaruush along with recording v-Logs and conducting interviews of the myriad of guests joining us for the fest. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -348,7 +378,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='The main aim of Quality Assurance is to maintain a desired level of quality of the fest that we uphold, and to strive forward and refine it in every step. It comprises of data analysis, report writing, required follow up during implementation and accommodation of external participants coming here during the fest. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -367,7 +399,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='The Finance Committee examines the accounts, scrutinizes the proposals for expenditures and submits the annual budget for the Aaruush. No expenditure in the budget is incurred without the prior approval of the Finance Committee which fixes limits for the total expenditure for the year based on the resources and the income. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -386,7 +420,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Operations & Resource Management is a committee which deals with all the resources required for the team, permissions required for proper work flow of Aaruush team. ORM is also responsible for crowd control and crisis management. It works as an event management team for Aaruush. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -405,7 +441,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='CSI is a dynamic committee that is the on-ground army of Aaruush. Responsible for internal and external publicity, strategizing work-plans and executing them, CSI is the committee that gives one a hands-on experience of working in the corporate world with big teams and even bigger ideas. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -424,7 +462,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='It takes care of all the guest lectures, Aaruush nights, exhibitions and all the dignitaries that become a part of this national level fest. All the necessities of the guests are taken care of by the highlights committee including their hospitality and transportation.  '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -443,7 +483,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='From having corporate meetings with various professionals to bringing sponsors and implementing marketing ideas, the committee attempts to deliver more than a drive by impression. The committee expects potential members to strategize the various marketing tactics in order to shape up various business deals around the fest. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -462,7 +504,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Initiatives are a committee which embodies new ideas, projects and initiatives which will create a difference. It promises to bring out the innovative side of you in the pursuit of taking our fest to higher echelons of success. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -480,7 +524,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='The committee conceptualizes, design and conduct workshops on various fields of technology in collaboration with big organizations across the country.'
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -499,7 +545,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='This committee showcases a series of challenging competitions, testing your technical skills and your ability to adapt to challenging constraints. It is your creativity and innovation that will get you through your challenges. Mind boggling, out of the box competitions await you in the form of Hackathons, Robotics and Design Challenges etc, to name a few. The Championships bring you a varied extravaganza of competitions all under one roof. Championships organizes events which provide students with an opportunity to showcase their talent be it in the field of technology or sports. The Championships include mega events like of Robo-Wars, RC Cars, Drone Racing, Coding, Sports and many more.'
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -518,7 +566,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Creatives has various sub domains including photography, videography, graphic designing, VFX, music, video editing, and scripting. It gives you the platform to get the wheels of your artsy left brain spinning and implement whatever you can visualize. Apply right away if you feel like your larger than life vision needs makers.'
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -536,7 +586,9 @@ export default function Domains() {
                   <ReadMoreReact
                     min={0}
                     text='Deco and Arts is the committee that ensures that AARUUSH comes easy and pleasant to the eyes of the onlookers. From artistic banners, art work, structures and models for decoration in terms of flags, lights and colors for everything that one can think off. '
-                    readMoreText={<div className='readmoretext'>read more</div>}
+                    readMoreText={
+                      <div className='readmoretext'>read more...</div>
+                    }
                   />
                 </p>
               </div>
@@ -559,7 +611,9 @@ export default function Domains() {
                 <ReadMoreReact
                   min={0}
                   text='Team Envision is a Multidisciplinary Technical Team of Aaruush that aims to provide solutions to most campus and societal issue. Team Envision participated in Rajasthan Hackathon, Mozofest Hackathon, and Accenture Blockchain Hackathon wherein we presented hacks based on Campus and Societal Issues which won accolades.Team Envision is a consortium of AI, IoT, Blockchain, Web & App Developers, Visual Designers, Electrical and Mechanical Engineers who work closely to ideate, design, fabricate and develop products to tackle campus and societal issues and problems. These products can also take a form of a research paper which can be published in renowned international conferences or can be filed for patent. It is a team where we convert vision to reality. Bring us your ideas and we will Envision it together.'
-                  readMoreText={<div className='readmoretext'>read more</div>}
+                  readMoreText={
+                    <div className='readmoretext'>read more...</div>
+                  }
                 />
               </p>
             </div>
@@ -578,7 +632,9 @@ export default function Domains() {
                 <ReadMoreReact
                   min={0}
                   text='The principal work profile of the Outreach Committee is to collaborate with the other committees and domains of Team Aaruush, in order to organize Flagship Events in institutions across the entire nation. These events are held with the purpose of providing practical experience to the participants. Establishing and maintaining a good professional relationship with other schools, universities, institutions and their representatives is also a critical part of the Outreach work profile. '
-                  readMoreText={<div className='readmoretext'>read more</div>}
+                  readMoreText={
+                    <div className='readmoretext'>read more...</div>
+                  }
                 />
               </p>
             </div>
@@ -598,7 +654,9 @@ export default function Domains() {
                 <ReadMoreReact
                   min={0}
                   text='Focuses on the aspects of digital marketing including analytics of the social media platforms, as well as formulation of methods to maximise reach and audience interaction. The primary goal is to build an online presence for better publicity.'
-                  readMoreText={<div className='readmoretext'>read more</div>}
+                  readMoreText={
+                    <div className='readmoretext'>read more...</div>
+                  }
                 />
               </p>
             </div>

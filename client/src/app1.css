@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
   box-sizing: border-box;
@@ -25,8 +26,8 @@ img {
   padding: 100px 50px 50px 50px;
   max-width: 100%;
   display: flex;
-  font-family: 'Raleway';
-  font-size: 30px;
+  font-family: 'Bebas Neue';
+  font-size: 40px;
 }
 .subcontainer {
   /*for domains*/
@@ -39,17 +40,16 @@ img {
   font-family: 'Raleway';
   font-size: 25px;
 }
-.heading h6 {
-  font-size: 13px;
-  font-family: 'Open Sans';
-  color: #cdcdcd;
-  padding-top: 10px;
+
+h1 {
+  font-size: 40px;
 }
+
 h6 {
-  font-size: 12px;
+  font-size: 18px;
   font-family: 'Open Sans';
   color: #cdcdcd;
-  padding-top: 10px;
+  padding-top: 0px;
   flex: column;
 }
 h4 {
@@ -92,8 +92,8 @@ h4 {
 .column2 {
   width: 50%;
   float: right;
-  padding-left: 40px;
-  margin-right: -30px;
+  padding-left: 10px;
+  margin-right: -10px;
 }
 .heading {
   display: flex;
@@ -139,13 +139,15 @@ h4 {
   text-decoration: none;
   display: inline-block;
   padding: 5px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
-
-  /* box-shadow: 0 3px 3px 0 #f6255a, 0 6px 10px 0 #f6255a; */
+  margin-bottom: 20px;
+  /* box-shadow: 0 3px 3px 0 #f6255a, 0 6px 20px 0 #f6255a; */
 }
 .heading .com {
-  background-color: #00ccff;
+  margin-bottom: 20px;
+
+  background-color: #4169e1;
   color: white;
   margin-top: 25px;
   width: 150px;
@@ -174,7 +176,7 @@ h4 {
 }
 
 .fab {
-  padding: 12px;
+  padding: 17px;
   font-size: 20px;
   text-decoration: none;
   color: white;
@@ -241,7 +243,7 @@ form ::placeholder {
   padding-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 500px;
+  grid-gap: 200px;
   font-family: 'Raleway';
 }
 
@@ -297,5 +299,5 @@ form ::placeholder {
 
 .teams h4 {
   color: #40b89c;
-  font-size: 20px;
+  font-size: 24px;
 }

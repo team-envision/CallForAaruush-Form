@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,12 +18,14 @@ body {
   padding: 100px 50px 50px 50px;
   max-width: 100%;
   display: flex;
-  font-family: 'Raleway';
-  font-size: 33px;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  font-weight: 100;
 }
 
 .head h1 {
-  font-size: 70px;
+  font-size: 110px;
+  font-weight: 100;
 }
 
 .head {
@@ -30,8 +33,8 @@ body {
   padding-bottom: 1%;
 }
 
-.heading h6 {
-  font-size: 14px;
+h6 {
+  font-size: 20px;
   font-family: 'Open Sans';
   color: #cdcdcd;
   padding: 10px;
@@ -54,24 +57,28 @@ body {
 .about {
   flex-direction: column;
   flex: 1;
-  padding-left: 60px;
+  padding-left: 140px;
   text-align: justify;
   font-size: 25px;
+  font-family: 'Open Sans';
+}
+
+.about h5 {
+  padding-left: 10px;
 }
 
 .heading .button-apply {
   transition-duration: 0.4s;
   margin-top: 25px;
-  width: 200px;
+  width: 400px;
   background: #414a74; /* Green */
   border: none;
   border-radius: 10px;
   color: white;
-  padding: 15px 32px;
+  padding: 0px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   padding: 10px;
 
@@ -102,8 +109,8 @@ body {
 }
 
 .fab {
-  padding: 20px 15px;
-  font-size: 20px;
+  padding: 30px 20px;
+  font-size: 25px;
   text-decoration: none;
   color: white;
 }
@@ -114,7 +121,7 @@ body {
   text-decoration: none;
   color: white;
   float: right;
-  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .form {
@@ -177,7 +184,7 @@ form ::placeholder {
   padding-bottom: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 500px;
+  grid-gap: 100px;
   font-family: 'Raleway';
 }
 

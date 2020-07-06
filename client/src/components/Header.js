@@ -17,7 +17,7 @@ export default function Header() {
           <h1>AARUUSH</h1>
           <h6>1st july - 15th july</h6>
           <button className='button-apply' onClick={handleScrollToElement}>
-            Apply Now
+            <h3>Apply Now</h3>
           </button>
         </div>
         <div className='about'>

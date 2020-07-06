@@ -18,7 +18,7 @@ body {
   max-width: 100%;
   display: flex;
   font-family: 'Raleway';
-  font-size: 30px;
+  font-size: 33px;
 }
 
 .head h1 {
@@ -31,7 +31,7 @@ body {
 }
 
 .heading h6 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'Open Sans';
   color: #cdcdcd;
   padding: 10px;
@@ -39,7 +39,6 @@ body {
 
 .container p {
   font-family: 'open sans';
-  font-size: 15px;
   line-height: 25px;
   padding: 10px;
   color: #cdcdcd;
@@ -57,6 +56,11 @@ body {
   flex: 1;
   padding-left: 60px;
   text-align: justify;
+  font-size: 25px;
+}
+
+.about p {
+  font-size: 30px;
 }
 
 .heading .button-apply {
@@ -278,7 +282,7 @@ img {
 }
 
 h6 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'Open Sans';
   color: #cdcdcd;
   padding-top: 10px;

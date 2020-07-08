@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import validator from 'validator';
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -17,6 +18,19 @@ const Form = () => {
     setAlready(e.target.value);
   };
 
+  const required = (value) => {
+    if (!value.toString().trim().length) {
+      // We can return string or jsx as the 'error' prop for the validated Component
+      return 'require';
+    }
+  };
+
+  const isEmail = (value) => {
+    if (!validator.isEmail(value)) {
+      return `${value} is not a valid email.`;
+    }
+  };
+
   const postForm = async (name, email, alreadyInAaruush) => {
     try {
       setLoading(true);
@@ -32,14 +46,16 @@ const Form = () => {
     }
   };
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    if (name === '' && email === '') {
+
+    if (name === '' && email === '' && validator.isEmail(email)) {
       console.log('Please enter something', 'light');
     } else {
-      postForm(name, email, alreadyInAaruush);
+      await postForm(name, email, alreadyInAaruush);
       setName('');
       setEmail('');
+      alert('Form submitted');
     }
   };
 
@@ -53,11 +69,14 @@ const Form = () => {
         <input
           type='text'
           placeholder='Name'
+          validations={[required]}
+          validator={required}
           value={name}
           onChange={onChangeName}
         />
         <input
           type='email'
+          validations={[required, isEmail]}
           placeholder='Email Id (use college email id)'
           value={email}
           onChange={onChangeEmail}
@@ -65,6 +84,7 @@ const Form = () => {
         <select
           placeholder='Already in Aaruush?'
           value={alreadyInAaruush}
+          validations={[required]}
           onChange={onChangeAlready}
         >
           <option value='no' selected>
@@ -76,15 +96,17 @@ const Form = () => {
         </select>
 
         {loading ? (
-          <button className='submit' onClick={onSubmit}>
-            Loading...
-          </button>
+          <button className='submit'>Loading...</button>
         ) : (
-          <button className='submit' onClick={onSubmit}>
+          <button
+            className='submit'
+            onClick={!validator.isEmail(email) ? null : onSubmit}
+          >
             Download
           </button>
         )}
       </form>
+
       <div className='contact'>
         <div className='info-left'>
           <h2>Secretory</h2>

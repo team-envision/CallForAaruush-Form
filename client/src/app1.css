@@ -101,10 +101,10 @@ h4 {
   flex: 1;
 }
 
-.about {
+/* .about {
   flex-direction: column;
   flex: 1.5;
-}
+} */
 
 .heading .button-apply {
   transition-duration: 0.4s;

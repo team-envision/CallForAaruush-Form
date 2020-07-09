@@ -63,7 +63,7 @@ const Form = () => {
     <div className='form'>
       <p>
         To Apply, fill the form and send the downloaded document at
-        teamdev@aaruush.com
+        <a href='mailto:teamdev@aaruush.com'> teamdev@aaruush.com</a>
       </p>
       <form>
         <input

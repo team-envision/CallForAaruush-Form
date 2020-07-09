@@ -601,7 +601,7 @@ export default function Domains() {
           <div class='card'>
             <img src={envision}></img>
             <div class='text'>
-              <h4 id='para1'>Team Envision</h4>
+              <h4 id='para1'>TEAM ENVISION</h4>
               <h6 id='para2'>
                 Multidisciplinary Technical Team aiming to ideate, design and
                 create products to tackle campus and societal problems.
@@ -644,7 +644,7 @@ export default function Domains() {
           <div class='card'>
             <img src={digitalmanagement}></img>
             <div class='text'>
-              <h4 id='para1'>Digital Management </h4>
+              <h4 id='para1'>DIGITAL MANAGEMENT</h4>
               <h6 id='para2'>
                 Social media management and analysis, Online Audience
                 Interaction.

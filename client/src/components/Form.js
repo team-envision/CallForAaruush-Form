@@ -109,11 +109,11 @@ const Form = () => {
 
       <div className='contact'>
         <div className='info-left'>
-          <h2>Secretory</h2>
+          <h2>Secretary</h2>
           <p>Karan Singh Pokharia - 9876543210</p>
         </div>
         <div className='info-right'>
-          <h2>Joint Secretory</h2>
+          <h2>Joint Secretary</h2>
           <p>Harsh Kumar Modi - 9876543210</p>
           <p>Sri Hari Anand - 9876543210</p>
         </div>
